@@ -1,0 +1,43 @@
+/* BASIC STYLES */
+:root {
+  --color-primary-blue: hsl(223, 87%, 63%);
+  --color-secondary-pale-blue: hsl(223, 100%, 88%);
+  --color-secondary-light-red: hsl(354, 100%, 66%);
+  --color-neutral-gray: hsl(0, 0%, 59%);
+  --color-neutral-dark-blue: hsl(209, 33%, 12%);
+  --font: 'Libre Franklin', sans-serif;
+  --speed: 150ms;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+html {
+  box-sizing: border-box;
+}
+img {
+  display: block;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+
+/* FRONTEND MENTOR STYLES */
+.attribution {
+  position: fixed;
+  color: var(--color-neutral-dark-blue);
+  background-color: var(--color-primary-blue);
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem 0.5rem;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: var(--color-secondary-pale-blue);
+}
